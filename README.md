@@ -22,6 +22,10 @@ The original author's MIT License is preserved in [`teach/LICENSE`](teach/LICENS
 
 This is a guided-learning skill built for my own use. Unlike `teach`, which provides a complete multi-session teaching workspace, `guide-learning` is simpler and more direct. It selects the smallest effective explanation, exercise, feedback, and verification step based on the learner's goal and current bottleneck, without requiring a full course workspace.
 
+### `nlm-skill`
+
+An expert guide for the NotebookLM CLI (`nlm`). It covers notebook and source management, research, Studio content generation, batch workflows, prompting patterns, and troubleshooting.
+
 ## License
 
 Except for separately identified third-party derivative work, this repository is available under the [MIT License](LICENSE).
