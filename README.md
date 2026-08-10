@@ -26,6 +26,17 @@ This is a guided-learning skill built for my own use. Unlike `teach`, which prov
 
 An expert guide for the NotebookLM CLI (`nlm`). It covers notebook and source management, research, Studio content generation, batch workflows, prompting patterns, and troubleshooting.
 
+## Pi Extensions
+
+[`pi-extension/`](pi-extension/) contains extensions for the [Pi coding agent](https://github.com/badlogic/pi-mono):
+
+- [`agy-delegate`](pi-extension/agy-delegate/) registers the `agy_delegate` tool and `/agy` command for delegating bounded tasks to the local Antigravity CLI.
+- [`codex-usage`](pi-extension/codex-usage/) adds the `/codex-status` command and a status-line indicator for Codex subscription usage and rate limits.
+- [`openai-response-defaults`](pi-extension/openai-response-defaults/) applies low-verbosity response defaults to OpenAI and OpenAI Codex requests.
+- [`safety-guard`](pi-extension/safety-guard/) asks for confirmation before executing potentially dangerous shell commands.
+
+To install one, copy its folder into `~/.pi/agent/extensions/`, then restart Pi or run `/reload`.
+
 ## License
 
 Except for separately identified third-party derivative work, this repository is available under the [MIT License](LICENSE).
