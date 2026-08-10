@@ -1,0 +1,5 @@
+interface:
+  display_name: "NotebookLM CLI"
+  short_description: "Use NotebookLM through the nlm CLI"
+policy:
+  allow_implicit_invocation: false
