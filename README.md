@@ -26,6 +26,12 @@ This is a guided-learning skill built for my own use. Unlike `teach`, which prov
 
 An expert guide for the NotebookLM CLI (`nlm`). It covers notebook and source management, research, Studio content generation, batch workflows, prompting patterns, and troubleshooting.
 
+### `sim-zh`
+
+A simplified technical Chinese writing skill for replies, code comments, commit messages, and project documentation. It puts key information first, keeps terms consistent, and separates completion from verification.
+
+Adapted and simplified from [`dualface/ste-zh`](https://github.com/dualface/ste-zh), released under the MIT License. The upstream copyright notice is preserved in the repository's [`LICENSE`](LICENSE).
+
 ## Pi Extensions
 
 [`pi-extension/`](pi-extension/) contains extensions for the [Pi coding agent](https://github.com/badlogic/pi-mono):
