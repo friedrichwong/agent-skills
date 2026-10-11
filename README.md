@@ -28,7 +28,7 @@ An expert guide for the NotebookLM CLI (`nlm`). It covers notebook and source ma
 
 ### `sim-zh`
 
-A simplified technical Chinese writing skill for replies, code comments, commit messages, and project documentation. It puts key information first, keeps terms consistent, and separates completion from verification.
+A simplified technical Chinese writing skill for session-wide communication, code comments, commit messages, and project documentation. It leads with conclusions, keeps terms consistent, and separates completion from verification.
 
 Adapted and simplified from [`dualface/ste-zh`](https://github.com/dualface/ste-zh), released under the MIT License. The upstream copyright notice is preserved in the repository's [`LICENSE`](LICENSE).
 
